@@ -1,20 +1,21 @@
 <div align="center">
-  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
+  <img height="150" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbWQwZ2ZpZzZ1d2Jmanc0dHphbHIyMmkwbHQ2aXFmbmljOHJ5dTUweiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bGgsc5mWoryfgKBx1u/giphy.gif"  />
 </div>
 
 ###
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/zayan-mohamed">
+  <a href="https://www.linkedin.com/in/zayan-mohamed" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="LinkedIn" />
   </a>
-  <a href="https://twitter.com/your-twitter">
+  <a href="https://zayanmohamed.dev" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Portfolio&logo=Google%20Chrome&label=&color=FFA500&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="Portfolio" />
+  </a>
+  <a href="https://twitter.com/Its_Mzayan" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="Twitter" />
   </a>
-  <a href="https://www.youtube.com/channel/your-youtube">
-    <img src="https://img.shields.io/static/v1?message=YouTube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="YouTube" />
-  </a>
 </div>
+
 
 ###
 
@@ -35,12 +36,12 @@
 <p align="left">
   I'm <b>Zayan Mohamed</b>, an <b>IT undergraduate</b> at <b>SLIIT University</b>, majoring in <b>Data Science</b> with a GPA of 3.66.  
   <br><br>
-  - 🔭 I’m currently working on a **Bus Ticket Booking System** using the **MERN stack**  
-  - 🎓 Previously worked as a **Global Admissions Officer - Trainee** at **Adventus.io**  
-  - 💻 Passionate about **Full Stack Development, DevOps, and Compiler Design**  
-  - 🚀 Exploring **React, Zustand, and State Management** in **GoSync**  
-  - 🌱 Currently learning **Kotlin/JVM Compiler Development**  
-  - ⚡ Fun fact: I enjoy **building UI/UX mockups in Figma and contributing to Open Source!**  
+  🔭 I’m currently working on a <b>Bus Ticket Booking System</b> using the <b>MERN stack</b> <br>
+  🎓 Previously worked as a <b>Claims Analyst - Trainee</b> at <b>Legacy Health LLC</b> <br>
+  💻 Passionate about <b>Full Stack Development, DevOps, and Compiler Design</b> <br>
+  🚀 Exploring <b>React, Zustand, and State Management</b> in <b>GoSync</b> <br>
+  🌱 Currently learning <b>Kotlin/JVM Compiler Development</b> <br>
+  ⚡ Fun fact: I enjoy <b>building UI/UX mockups in Figma and contributing to Open Source!</b>
 </p>
 
 ###
