@@ -58,21 +58,21 @@
 <h3 align="left">🔥 My GitHub Stats</h3>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Zayan-Mohamed&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="200" alt="GitHub Streak Stats" />
+  <img src="https://streak-stats.demolab.com?user=Zayan-Mohamed&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="200" alt="GitHub Streak Stats" style="margin-bottom:40px" />
   <br />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zayan-Mohamed&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" height="200" />
 </div>
 
 ---
 
-## 🏆 GitHub Trophies  
+### 🏆 GitHub Trophies  
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Zayan-Mohamed&theme=radical&no-frame=false&no-bg=false&margin-w=4" />
 </div>
 
 ---
 
-### ✍️ Random Dev Quote  
+### ✍️Dev Quote for today! 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
 </div>
