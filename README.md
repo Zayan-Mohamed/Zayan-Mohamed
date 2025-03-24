@@ -6,7 +6,7 @@
   <a href="https://www.linkedin.com/in/zayan-mohamed" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="LinkedIn" />
   </a>
-  <a href="https://zayanmohamed.dev" target="_blank">
+  <a href="https://portfolio-zayan.vercel.app" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Portfolio&logo=Google%20Chrome&label=&color=FFA500&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="Portfolio" />
   </a>
   <a href="https://twitter.com/Its_Mzayan" target="_blank">
