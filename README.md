@@ -20,8 +20,6 @@
 
 <h1 align="center">Hey, I’m Zayan 👋</h1>
 
----
-
 ## 👨‍💻 About Me
 
 I’m **Zayan Mohamed**, an **IT undergraduate at SLIIT University**, majoring in **Data Science** (GPA **3.66**).
@@ -29,7 +27,8 @@ I’m **Zayan Mohamed**, an **IT undergraduate at SLIIT University**, majoring i
 I like building systems that actually work end-to-end—clean UIs, solid backends, sane tooling, and reproducible dev environments.
 
 **What I’m focused on right now**
-- 🚍 Building a **Bus Ticket Booking System** with the **MERN stack**
+- 🚍 Building a **Bus Ticket Booking System** with the **Next.js and Supabase backend**
+- 🛠️ Personal PaaS: Managing private cloud deployments via **Coolify and Linode.**
 - ⚙️ Developing **GoSync**, exploring **React, Zustand, and state management**
 - 🧠 Learning **Kotlin/JVM compiler design**
 - 🔧 Improving my **Linux + Neovim + DevOps** workflow
@@ -57,6 +56,23 @@ I like building systems that actually work end-to-end—clean UIs, solid backend
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="45" />
 </div>
 
+---
+## ✍️ Writing & Publications
+
+**Featured**
+
+SecScan v2.2.2 
+> [A high-performance, context-aware secret scanner built in Go.](https://dev.to/zayanmohamed/i-was-tired-of-noisy-secret-scanners-so-i-built-a-smarter-one-in-go-secscan-v22-4idf)
+- **The Problem:** Traditional scanners are too noisy, flagging random strings as secrets.
+- **The Solution:** Uses Shannon Entropy Analysis to differentiate between actual cryptographic keys and standard code.
+- **Key Result:** Reduced false positives by ~95% in real-world testing.
+
+[view Respository](https://github.com/Zayan-Mohamed/secscan.git)
+
+| Title | Topic | Published |
+|------|-------|-----------|
+| [SecScan: Smarter Secret Scanning with Go & Entropy Analysis](https://dev.to/zayanmohamed/i-was-tired-of-noisy-secret-scanners-so-i-built-a-smarter-one-in-go-secscan-v22-4idf) | Go · Security · Open Source | Dec 2025 |
+| [Building a Reproducible Linux Dev Environment](https://dev.to/zayanmohamed/stop-manual-configs-how-i-built-a-fully-reproducible-linux-dev-environment-3584) | Linux · Dotfiles | Dec 2025 |
 ---
 
 ## 📊 GitHub Activity
