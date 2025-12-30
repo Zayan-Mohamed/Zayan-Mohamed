@@ -15,83 +15,133 @@
 </div>
 
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Zayan-Mohamed.Zayan-Mohamed" />
+  <a href="https://github.com/Zayan-Mohamed" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" height="25" />
+  </a>
+  <a href="https://dev.to/zayanmohamed" target="_blank">
+    <img src="https://img.shields.io/badge/Dev.to-0A0A0A?logo=dev.to&logoColor=white&style=for-the-badge" height="25" />
+  </a>
+  <a href="mailto:zayanmohamed.tech@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-EA4335?logo=gmail&logoColor=white&style=for-the-badge" height="25" />
+  </a>
 </div>
+</br>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Zayan-Mohamed&style=flat&color=blue" />
+</p>
 
-<h1 align="center">Hey, I’m Zayan 👋</h1>
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Hey%2C+I'm+Zayan+%F0%9F%91%8B;Full-Stack+Developer;Data+Science+Enthusiast;Open+Source+Contributor" alt="Typing SVG" />
+</h1>
 
 ## 👨‍💻 About Me
 
-I’m **Zayan Mohamed**, an **IT undergraduate at SLIIT University**, majoring in **Data Science** (GPA **3.66**).
+```typescript
+const zayan = {
+  location: "Sri Lanka 🇱🇰",
+  education: "IT @ SLIIT University | Data Science (GPA 3.66)",
+  role: "Full-Stack Developer & Data Science Enthusiast",
+  philosophy: "Building systems that actually work end-to-end",
+};
+```
 
-I like building systems that actually work end-to-end—clean UIs, solid backends, sane tooling, and reproducible dev environments.
+### 🚀 What I'm Building Right Now
 
-**What I’m focused on right now**
-- 🚍 Building a **Bus Ticket Booking System** with the **Next.js and Supabase backend**
-- 🛠️ Personal PaaS: Managing private cloud deployments via **Coolify and Linode.**
-- ⚙️ Developing **GoSync**, exploring **React, Zustand, and state management**
-- 🧠 Learning **Kotlin/JVM compiler design**
-- 🔧 Improving my **Linux + Neovim + DevOps** workflow
+- 🚍 **Bus Ticket Booking System** — Next.js + Supabase full-stack platform
+- 🛠️ **Personal PaaS** — Private cloud deployments with Coolify & Linode
+- ⚙️ **GoSync** — Exploring React, Zustand & advanced state management patterns
+- 🔐 **SecScan v2** — High-performance secret scanner with entropy analysis
+- 🐧 **Linux Workflow** — Neovim + DevOps automation & dotfiles management
 
-**Background**
-- 🎓 Former **Claims Analyst – Trainee** at **Legacy Health LLC**
-- 💡 Interests: **Full-stack systems, DevOps, compilers, and tooling**
-- 🎨 I enjoy designing UI flows in **Figma** and contributing to **open source**
+### 💼 Experience & Interests
+
+- 🎓 Former **Claims Analyst Trainee** @ Legacy Health LLC
+- 💡 Deep dive into: **Full-stack systems, DevOps, compilers, and tooling**
+- 🎨 Design advocate: Creating UI flows in **Figma** & contributing to **open source**
+- 🧠 Currently learning: **Kotlin/JVM compiler design**
 
 ---
 
-## 🛠 Languages & Tools
+## 🛠 Tech Stack
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="45" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="45" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="45" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="45" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="45" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="45" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="45" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="45" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="45" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="45" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="45" />
+<div align="center">
+
+### Languages
+
+<img src="https://skillicons.dev/icons?i=js,ts,go,java,kotlin,cpp,python,bash" alt="Languages" />
+
+### Frontend & Mobile
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css,figma" alt="Frontend" />
+
+### Backend & Databases
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,supabase,mongodb,mysql,postgres,firebase,redis" alt="Backend" />
+
+### DevOps & Tools
+
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,git,github,vscode,neovim,postman" alt="DevOps" />
+
 </div>
 
 ---
-## ✍️ Writing & Publications
 
-**Featured**
+## ✍️ Featured Projects & Publications
 
-SecScan v2.2.2 
-> [A high-performance, context-aware secret scanner built in Go.](https://dev.to/zayanmohamed/i-was-tired-of-noisy-secret-scanners-so-i-built-a-smarter-one-in-go-secscan-v22-4idf)
-- **The Problem:** Traditional scanners are too noisy, flagging random strings as secrets.
-- **The Solution:** Uses Shannon Entropy Analysis to differentiate between actual cryptographic keys and standard code.
-- **Key Result:** Reduced false positives by ~95% in real-world testing.
+<div align="center">
 
-[view Respository](https://github.com/Zayan-Mohamed/secscan.git)
+### 🔐 SecScan v2.2.2
 
-| Title | Topic | Published |
-|------|-------|-----------|
-| [SecScan: Smarter Secret Scanning with Go & Entropy Analysis](https://dev.to/zayanmohamed/i-was-tired-of-noisy-secret-scanners-so-i-built-a-smarter-one-in-go-secscan-v22-4idf) | Go · Security · Open Source | Dec 2025 |
-| [Building a Reproducible Linux Dev Environment](https://dev.to/zayanmohamed/stop-manual-configs-how-i-built-a-fully-reproducible-linux-dev-environment-3584) | Linux · Dotfiles | Dec 2025 |
+<a href="https://github.com/Zayan-Mohamed/secscan"></a>
+<img src="https://opengraph.githubassets.com/1/Zayan-Mohamed/secscan" alt="SecScan Repository" width="400"/>
+</a>
+
+**A high-performance, context-aware secret scanner built in Go**
+
+🎯 **The Problem:** Traditional scanners flag random strings as secrets (high false positives)  
+✨ **The Solution:** Shannon Entropy Analysis for intelligent cryptographic key detection  
+📊 **Key Result:** **95% reduction in false positives** in production testing
+
+[![View Article](https://img.shields.io/badge/Read%20Article-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/zayanmohamed/i-was-tired-of-noisy-secret-scanners-so-i-built-a-smarter-one-in-go-secscan-v22-4idf)
+[![View Repository](https://img.shields.io/badge/View%20Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Zayan-Mohamed/secscan)
+
+</div>
+
+### 📝 Recent Articles
+
+| Title                                                                                                                                                                           | Topic                       | Published |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- | --------- |
+| [SecScan: Smarter Secret Scanning with Go & Entropy Analysis](https://dev.to/zayanmohamed/i-was-tired-of-noisy-secret-scanners-so-i-built-a-smarter-one-in-go-secscan-v22-4idf) | Go · Security · Open Source | Dec 2025  |
+| [Building a Reproducible Linux Dev Environment](https://dev.to/zayanmohamed/stop-manual-configs-how-i-built-a-fully-reproducible-linux-dev-environment-3584)                    | Linux · Dotfiles            | Dec 2025  |
+
 ---
 
 ## 📊 GitHub Activity
 
+<!-- <div align="center">
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Zayan-Mohamed&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" height="180" />
+  <img src="https://streak-stats.demolab.com/?user=Zayan-Mohamed&theme=radical&hide_border=true" alt="GitHub Streak" height="180" />
+</div> -->
+
+<!-- <div align="center">
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Zayan-Mohamed&theme=radical&hide_border=true&layout=compact&langs_count=8&exclude_repo=Zayan-Mohamed" alt="Top Languages" height="180" />
+</div> -->
+
+### 📈 Contribution Activity
+
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Zayan-Mohamed&theme=dark" height="180" />
-  <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zayan-Mohamed&theme=dark&layout=compact" height="180" />
+  <img src="https://ssr-contributions-svg.vercel.app/_/Zayan-Mohamed?chart=3dbar&gap=0.6&scale=2&flatten=2&animation=wave&animation_duration=1&animation_delay=0.05&animation_amplitude=20&animation_frequency=0.1&animation_wave_center=10_0&format=svg&weeks=30" alt="3D Contribution Chart" />
 </div>
 
 ---
 
-## 🏆 Highlights
+<!-- ## 🏆 Highlights
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Zayan-Mohamed&theme=radical&margin-w=8" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Zayan-Mohamed&theme=radical&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
 </div>
 
----
+--- -->
 
 ## ✍️ Daily Dev Quote
 
@@ -101,10 +151,15 @@ SecScan v2.2.2
 
 ---
 
-## 🔝 Top Contributions
+## 🔝 GitHub Metrics
 
 <div align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=Zayan-Mohamed&limit=5&theme=dark&combine_all_yearly_contributions=true" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Zayan-Mohamed&theme=radical" alt="Profile Details" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Zayan-Mohamed&theme=radical" alt="Repos Per Language" width="400"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Zayan-Mohamed&theme=radical" alt="Most Commit Language" width="400"/>
 </div>
 
 ---
@@ -119,3 +174,18 @@ SecScan v2.2.2
   </picture>
 </div>
 
+---
+
+<div align="center">
+  <h3>💬 Let's Connect!</h3>
+  <p>I'm always open to collaborating on interesting projects or discussing tech over coffee ☕</p>
+  <p>
+    <a href="https://www.linkedin.com/in/zayan-mohamed"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=LinkedIn&logoColor=white"/></a>
+    <a href="https://portfolio-zayan.vercel.app"><img src="https://img.shields.io/badge/-Portfolio-FFA500?style=flat-square&logo=google-chrome&logoColor=white"/></a>
+    <a href="https://dev.to/zayanmohamed"><img src="https://img.shields.io/badge/-Dev.to-0A0A0A?style=flat-square&logo=dev.to&logoColor=white"/></a>
+    <a href="mailto:zayanmohamed.tech@gmail.com"><img src="https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
+  </p>
+  <p><i>"Code is like humor. When you have to explain it, it's bad." – Cory House</i></p>
+  <br>
+  <img src="https://komarev.com/ghpvc/?username=Zayan-Mohamed&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile views" />
+</div>
