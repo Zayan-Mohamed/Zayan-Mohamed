@@ -151,7 +151,17 @@ const zayan = {
 
 ---
 
-## 🔝 GitHub Metrics
+## � Dev Card
+
+<div align="center">
+  <a href="https://app.daily.dev/zayanmohamed">
+    <img src="https://api.daily.dev/devcards/v2/UMckX33wSjHM9Q3B2bo4m.png?r=3hq&type=wide" width="652" alt="Zayan Mohamed's Dev Card"/>
+  </a>
+</div>
+
+---
+
+## �🔝 GitHub Metrics
 
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Zayan-Mohamed&theme=radical" alt="Profile Details" />
