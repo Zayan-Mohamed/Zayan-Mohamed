@@ -117,7 +117,7 @@ const zayan = {
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- | --------- |
 | [SecScan: Smarter Secret Scanning with Go & Entropy Analysis](https://dev.to/zayanmohamed/i-was-tired-of-noisy-secret-scanners-so-i-built-a-smarter-one-in-go-secscan-v22-4idf) | Go · Security · Open Source | Dec 2025  |
 | [Building a Reproducible Linux Dev Environment](https://dev.to/zayanmohamed/stop-manual-configs-how-i-built-a-fully-reproducible-linux-dev-environment-3584)                    | Linux · Dotfiles            | Dec 2025  |
-
+|[Goodbye Heroku: Self-Hosting a PaaS with Linode & Coolify](https://dev.to/zayanmohamed/goodbye-heroku-how-i-built-my-own-paas-on-linode-for-5-2ila) | DevOps · Self-Hosting · Coolify | Jan 2026 |
 ---
 
 ## 📊 GitHub Activity
