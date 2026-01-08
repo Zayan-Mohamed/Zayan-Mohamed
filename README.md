@@ -94,30 +94,30 @@ const zayan = {
 
 <div align="center">
 
-### 🔐 SecScan v2.2.2
+### Vaultix v0.1.0
 
-<a href="https://github.com/Zayan-Mohamed/secscan"></a>
-<img src="https://opengraph.githubassets.com/1/Zayan-Mohamed/secscan" alt="SecScan Repository" width="400"/>
+<a href="https://github.com/Zayan-Mohamed/vaultix">
+<img src="https://opengraph.githubassets.com/1/Zayan-Mohamed/vaultix" alt="vaultix Repository" width="400"/>
 </a>
 
-**A high-performance, context-aware secret scanner built in Go**
+</br>
+A lightweight, cross-platform tool using AES-256-GCM encryption with Argon2id key derivation. Zero dependencies, no cloud services—just strong local encryption for sensitive files.
 
-🎯 **The Problem:** Traditional scanners flag random strings as secrets (high false positives)  
-✨ **The Solution:** Shannon Entropy Analysis for intelligent cryptographic key detection  
-📊 **Key Result:** **95% reduction in false positives** in production testing
+</br>
 
-[![View Article](https://img.shields.io/badge/Read%20Article-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/zayanmohamed/i-was-tired-of-noisy-secret-scanners-so-i-built-a-smarter-one-in-go-secscan-v22-4idf)
-[![View Repository](https://img.shields.io/badge/View%20Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Zayan-Mohamed/secscan)
+[![View Article](https://img.shields.io/badge/Read%20Article-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/zayanmohamed/how-do-i-backup-my-identity-files-sshgpg-without-compromising-them-5g21)
+[![View Repository](https://img.shields.io/badge/View%20Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Zayan-Mohamed/vaultix)
 
 </div>
 
 ### 📝 Recent Articles
 
-| Title                                                                                                                                                                           | Topic                       | Published |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- | --------- |
-| [SecScan: Smarter Secret Scanning with Go & Entropy Analysis](https://dev.to/zayanmohamed/i-was-tired-of-noisy-secret-scanners-so-i-built-a-smarter-one-in-go-secscan-v22-4idf) | Go · Security · Open Source | Dec 2025  |
-| [Building a Reproducible Linux Dev Environment](https://dev.to/zayanmohamed/stop-manual-configs-how-i-built-a-fully-reproducible-linux-dev-environment-3584)                    | Linux · Dotfiles            | Dec 2025  |
-|[Goodbye Heroku: Self-Hosting a PaaS with Linode & Coolify](https://dev.to/zayanmohamed/goodbye-heroku-how-i-built-my-own-paas-on-linode-for-5-2ila) | DevOps · Self-Hosting · Coolify | Jan 2026 |
+| Title                                                                                                                                                                           | Topic                           | Published |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | --------- |
+| [How Do I Backup My Identity Files Without Compromising Them?](https://dev.to/zayanmohamed/how-do-i-backup-my-identity-files-sshgpg-without-compromising-them-5g21)             | Security · Encryption           | Jan 2026  |
+| [Goodbye Heroku: Self-Hosting a PaaS with Linode & Coolify](https://dev.to/zayanmohamed/goodbye-heroku-how-i-built-my-own-paas-on-linode-for-5-2ila)                            | DevOps · Self-Hosting · Coolify | Jan 2026  |
+| [SecScan: Smarter Secret Scanning with Go & Entropy Analysis](https://dev.to/zayanmohamed/i-was-tired-of-noisy-secret-scanners-so-i-built-a-smarter-one-in-go-secscan-v22-4idf) | Go · Security · Open Source     | Dec 2025  |
+
 ---
 
 ## 📊 GitHub Activity
