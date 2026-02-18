@@ -35,61 +35,35 @@
 
 <div align="center">
   
-<details>
-<summary>
-  <kbd>📡 CONNECT WITH ME</kbd>
-</summary>
-
-<br />
-
-<div align="center">
-
-```ascii
-┌─────────────────────────────────────────────────────────┐
-│  📱 Social Links                                        │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
+```console
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ zayan@connect:~$ ls -la socials/                                            │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ drwxr-xr-x  linkedin    → linkedin.com/in/zayan-mohamed                     │
+│ drwxr-xr-x  portfolio   → portfolio-zayan.vercel.app                        │
+│ drwxr-xr-x  email       → zayanmohamed.tech@gmail.com                       │
+│ drwxr-xr-x  devto       → dev.to/zayanmohamed                               │
+│ drwxr-xr-x  twitter     → twitter.com/Its_Mzayan                            │
+└─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-</div>
-
 <p align="center">
-  <a href="https://www.linkedin.com/in/zayan-mohamed" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="35" alt="LinkedIn" />
+  <a href="https://www.linkedin.com/in/zayan-mohamed">
+    <img src="https://img.shields.io/badge/-LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
-  <a href="https://portfolio-zayan.vercel.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=firefox&logoColor=white" height="35" alt="Portfolio" />
+  <a href="mailto:zayanmohamed.tech@gmail.com">
+    <img src="https://img.shields.io/badge/-GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
-  <a href="https://github.com/Zayan-Mohamed" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="35" alt="GitHub" />
+  <a href="https://portfolio-zayan.vercel.app">
+    <img src="https://img.shields.io/badge/-PORTFOLIO-000?style=for-the-badge&logo=react&logoColor=white">
+  </a>
+  <a href="https://dev.to/zayanmohamed">
+    <img src="https://img.shields.io/badge/-DEV.TO-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white">
+  </a>
+  <a href="https://twitter.com/Its_Mzayan">
+    <img src="https://img.shields.io/badge/-TWITTER-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white">
   </a>
 </p>
-
-<p align="center">
-  <a href="https://twitter.com/Its_Mzayan" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" height="35" alt="Twitter" />
-  </a>
-  <a href="https://dev.to/zayanmohamed" target="_blank">
-    <img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" height="35" alt="Dev.to" />
-  </a>
-  <a href="mailto:zayanmohamed.tech@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="35" alt="Email" />
-  </a>
-</p>
-
-<div align="center">
-
-```ascii
-│                                                         │
-│  💬 Always open to interesting conversations!           │
-│  🤝 Let's build something amazing together              │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
-
-</div>
-
-</details>
 
 </div>
 
@@ -269,16 +243,46 @@ A lightweight, cross-platform tool using AES-256-GCM encryption with Argon2id ke
 
 ---
 
+---
+
 <div align="center">
-  <h3>💬 Let's Connect!</h3>
-  <p>I'm always open to collaborating on interesting projects or discussing tech over coffee ☕</p>
-  <p>
-    <a href="https://www.linkedin.com/in/zayan-mohamed"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=LinkedIn&logoColor=white"/></a>
-    <a href="https://portfolio-zayan.vercel.app"><img src="https://img.shields.io/badge/-Portfolio-FFA500?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
-    <a href="https://dev.to/zayanmohamed"><img src="https://img.shields.io/badge/-Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white"/></a>
-    <a href="mailto:zayanmohamed.tech@gmail.com"><img src="https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  </p>
-  <p><i>"Code is like humor. When you have to explain it, it's bad." – Cory House</i></p>
-  <br>
-  <img src="https://komarev.com/ghpvc/?username=Zayan-Mohamed&color=blueviolet&style=for-the-badge&label=Profile+Views" alt="Profile views" />
+
+```console
+╭──────────────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│                        💬 Let's Build Something Great                        │
+│                                                                              │
+│  Whether you're looking for a collaborator, need a full-stack developer,     │
+│  or just want to discuss the latest in tech—I'm here for it.                 │
+│                                                                              │
+│  ┌────────────────────────────────────────────────────────────────────────┐  │
+│  │  💼 Available for:                                                     │  │
+│  │     • Full-time opportunities in full-stack development                │  │
+│  │     • Freelance projects (web apps, automation, DevOps)                │  │
+│  │     • Open source collaboration                                        │  │
+│  │     • Technical writing & content creation                             │  │
+│  └────────────────────────────────────────────────────────────────────────┘  │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+```
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/zayan-mohamed"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=LinkedIn&logoColor=white" height="32"/></a>
+  <a href="mailto:zayanmohamed.tech@gmail.com"><img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="32"/></a>
+  <a href="https://portfolio-zayan.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" height="32"/></a>
+  <a href="https://dev.to/zayanmohamed"><img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" height="32"/></a>
+</p>
+
+```console
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  "The best way to predict the future is to implement it."                    │
+│                                                  — David Heinemeier Hansson  │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=Zayan-Mohamed&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" />
+<img src="https://img.shields.io/badge/STATUS-OPEN_TO_WORK-success?style=for-the-badge" alt="Open to work" />
+
 </div>
