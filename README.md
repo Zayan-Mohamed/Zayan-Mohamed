@@ -11,21 +11,21 @@
 │                 ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝                  │
 │                                                                              │
 │  ┌────────────────────────────────────────────────────────────────────────┐  │
-│  │ zayan@github:~$                                                        │  │
-│  │ ├─ role         → Full-Stack Developer & Data Science Enthusiast       │  │
-│  │ ├─ location     → Sri Lanka 🇱🇰 | LK                                    │  │
+│  │ agent_zayan@nexus:~$ system.info()                                     │  │
+│  │ ├─ role         → Full-Stack Developer & AI Systems Engineer           │  │
+│  │ ├─ architecture → Linux Native | Neural-Symbolic Hybrid                │  │
 │  │ ├─ education    → SLIIT University | IT & Data Science (GPA 3.66)      │  │
-│  │ ├─ shell        → Building systems that work end-to-end                │  │
-│  │ └─ uptime       → 24/7 Learning & Building                             │  │
+│  │ ├─ focus        → Building Agentic Workflows & Scalable Systems        │  │
+│  │ └─ status       → [ONLINE] - 24/7 Inference & Continuous Learning      │  │
 │  └────────────────────────────────────────────────────────────────────────┘  │
 │                                                                              │
 │  ╭──────────────────────╮ ╭────────────────────────────────────────────╮     │
-│  │   SYSTEM METRICS     │ │         ACTIVE PROCESSES                   │     │
+│  │   AGENT METRICS      │ │         ACTIVE PROCESSES                   │     │
 │  ├──────────────────────┤ ├────────────────────────────────────────────┤     │
-│  │ ██████████ Commits   │ │ ▸ Next.js + Supabase Bus Booking           │     │
-│  │ ████████░░ PRs       │ │ ▸ Personal PaaS with Coolify & Linode      │     │
-│  │ ███████░░░ Issues    │ │ ▸ SecScan v2 - Secret Scanner              │     │
-│  │ █████████░ Stars     │ │ ▸ Linux + Neovim Workflow Automation       │     │
+│  │ ██████████ Commits   │ │ ▸ Agentic AI Workflow Automation           │     │
+│  │ ████████░░ PRs       │ │ ▸ Next.js + Supabase Bus Booking           │     │
+│  │ ███████░░░ Issues    │ │ ▸ Personal PaaS with Coolify & Linode      │     │
+│  │ █████████░ Stars     │ │ ▸ SecScan v2 - Entropy-based Scanner       │     │
 │  ╰──────────────────────╯ ╰────────────────────────────────────────────╯     │
 │                                                                              │
 ╰──────────────────────────────────────────────────────────────────────────────╯
@@ -37,7 +37,7 @@
   
 ```console
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│ zayan@connect:~$ ls -la socials/                                            │
+│ agent_zayan@nexus:~$ connect --protocol socials                             │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ drwxr-xr-x  linkedin    → linkedin.com/in/zayan-mohamed                     │
 │ drwxr-xr-x  portfolio   → portfolio-zayan.vercel.app                        │
@@ -70,37 +70,66 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Zayan-Mohamed&style=flat-square&color=blue" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/Zayan-Mohamed?style=flat-square&logo=github&color=blue" alt="Followers" />
-  <img src="https://img.shields.io/badge/Status-Online-success?style=flat-square" alt="Status" />
+  <img src="https://img.shields.io/badge/Agent_Status-Active-success?style=flat-square" alt="Status" />
 </p>
 
 </div>
 
 <br />
 
-## � Current Focus & Projects
+<div>
 
+```python
+# 🧠 Initialize System Model
+import torch
+from neural_core import Developer, DataScientist
+
+agent_zayan = NeuralAgent(
+    role="Full-Stack Data Scientist",
+    backend=["Go", "Node.js", "Supabase"],
+    frontend=["Next.js", "React", "Tailwind"],
+    ml_pipeline=["PyTorch", "Scikit-learn", "Pandas"],
+    infrastructure=["Linux", "Docker", "Linode"]
+)
+
+agent_zayan.compile(optimizer='continuous_learning', loss='zero_downtime')
+agent_zayan.deploy()
+# Output: Agent successfully deployed to production.
+```
+
+</div>
+
+<br />
+
+## 🤖 Core Directives & Memory (Current Focus)
+
+- 🧠 **AI Agentic Workflows** — Exploring LLMs, RAG, and autonomous agent orchestration
 - 🚍 **Bus Ticket Booking System** — Next.js + Supabase full-stack platform
 - 🛠️ **Personal PaaS** — Private cloud deployments with Coolify & Linode
 - ⚙️ **GoSync** — Exploring React, Zustand & advanced state management patterns
 - 🔐 **SecScan v2** — High-performance secret scanner with entropy analysis
-- 🐧 **Linux Workflow** — Neovim + DevOps automation & dotfiles management
+- 🐧 **Linux Automation** — Neovim + DevOps workflows & agent-driven scripting
 
-### 💼 Experience & Interests
+### 💼 Experience & Training Data
 
 - 🎓 Former **Claims Analyst Trainee** @ Legacy Health LLC
-- 💡 Deep dive into: **Full-stack systems, DevOps, compilers, and tooling**
-- 🎨 Design advocate: Creating UI flows in **Figma** & contributing to **open source**
-- 🧠 Currently learning: **Kotlin/JVM compiler design**
+- 💡 Deep dive into: **AI integration, Full-stack systems, DevOps, compilers, and tooling**
+- 🎨 UI/UX & Open Source: Creating intuitive flows in **Figma** & contributing to **open source**
+- 🧠 Currently training on: **Kotlin/JVM compiler design & Agentic Frameworks**
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Tech Stack & Neural Nodes
 
 <div align="center">
 
 ### Languages
 
-<img src="https://skillicons.dev/icons?i=js,ts,go,java,kotlin,cpp,python,bash" alt="Languages" />
+<img src="https://skillicons.dev/icons?i=js,ts,python,go,java,kotlin,cpp,bash" alt="Languages" />
+
+### Artificial Intelligence & ML
+
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,scikitlearn,opencv" alt="AI & ML" />
 
 ### Frontend & Mobile
 
@@ -108,9 +137,9 @@
 
 ### Backend & Databases
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,supabase,mongodb,mysql,postgres,firebase,redis" alt="Backend" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,supabase,mongodb,mysql,postgres,redis" alt="Backend" />
 
-### DevOps & Tools
+### DevOps, Cloud & Tooling
 
 <img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,git,github,vscode,neovim,postman" alt="DevOps" />
 
@@ -118,22 +147,50 @@
 
 ---
 
-## 💻 Skill Proficiency
+## ⚙️ Automated Agentic Workflow
+
+<div align="center">
+
+```console
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ agent_zayan@nexus:~$ ./pipeline/execute.sh --mode=hybrid                    │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ [INFO] Initializing environment...                                          │
+│        => Node.js v20.x, Go 1.21, Python 3.11                               │
+│ [INFO] Loading dataset & preprocessing parameters... ████████████████ 100%  │
+│ [INFO] Training LLM agent (epochs=1000, lr=0.001)... [SUCCESS]              │
+│ [INFO] Exporting neural engine via ONNX...           [SUCCESS]              │
+│ [INFO] Compiling Next.js frontend + Go API backend...[SUCCESS]              │
+│ [INFO] Packaging with Docker buildx...               [SUCCESS]              │
+│        => building image 'nexus-core:v2.4'                                  │
+│ [INFO] Triggering CI/CD via GitHub Actions...                               │
+│        => deploying to Linode (Coolify instance)                            │
+│                                                                             │
+│ => Pipeline completed in 2m 14s. System state: FULLY_OPERATIONAL.           │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+*Seamlessly integrating machine learning pipelines with scalable web architectures.*
+
+</div>
+
+---
+
+## 💻 System Capabilities
 
 <div align="center">
 
 ```console
 ┌─────────────────────────────────────────────────────────────────────┐
-│ zayan@skills:~$ cat expertise.log                                   │
+│ agent_zayan@nexus:~$ cat /var/log/capabilities.log                  │
 ├─────────────────────────────────────────────────────────────────────┤
 │                                                                     │
 │  Full-Stack Development  ████████████████████░  95%                 │
+│  AI & Agentic Systems    ██████████████████░░░  85%                 │
 │  DevOps & Cloud          ███████████████████░░  90%                 │
 │  Data Science & ML       ████████████████░░░░░  80%                 │
-│  System Design           ███████████████░░░░░░  75%                 │
-│  Security & Encryption   ████████████████░░░░░  80%                 │
+│  System Architecture     ███████████████░░░░░░  75%                 │
 │  Go Programming          ███████████████████░░  90%                 │
-│  React/Next.js           ████████████████████░  95%                 │
 │  Linux Administration    ███████████████████░░  90%                 │
 │                                                                     │
 └─────────────────────────────────────────────────────────────────────┘
@@ -143,7 +200,7 @@
 
 ---
 
-## ✍️ Featured Projects & Publications
+## ✍️ Deployed Artifacts & Research
 
 <div align="center">
 
@@ -163,7 +220,7 @@ A lightweight, cross-platform tool using AES-256-GCM encryption with Argon2id ke
 
 </div>
 
-### 📝 Recent Articles
+### 📝 Recent Transmissions (Articles)
 
 | Title                                                                                                                                                                           | Topic                           | Published |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | --------- |
@@ -173,18 +230,7 @@ A lightweight, cross-platform tool using AES-256-GCM encryption with Argon2id ke
 
 ---
 
-<!-- ## 📊 GitHub Activity -->
-
-<!-- <div align="center">
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Zayan-Mohamed&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" height="180" />
-  <img src="https://streak-stats.demolab.com/?user=Zayan-Mohamed&theme=radical&hide_border=true" alt="GitHub Streak" height="180" />
-</div> -->
-
-<!-- <div align="center">
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Zayan-Mohamed&theme=radical&hide_border=true&layout=compact&langs_count=8&exclude_repo=Zayan-Mohamed" alt="Top Languages" height="180" />
-</div> -->
-
-## 📈 Contribution Activity
+## 📈 Agent Telemetry (Activity)
 
 <div align="center">
   <img src="https://ssr-contributions-svg.vercel.app/_/Zayan-Mohamed?chart=3dbar&gap=0.6&scale=2&flatten=2&animation=wave&animation_duration=1&animation_delay=0.05&animation_amplitude=20&animation_frequency=0.1&animation_wave_center=10_0&format=svg&weeks=30" alt="3D Contribution Chart" />
@@ -192,15 +238,7 @@ A lightweight, cross-platform tool using AES-256-GCM encryption with Argon2id ke
 
 ---
 
-<!-- ## 🏆 Highlights
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Zayan-Mohamed&theme=radical&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
-</div>
-
---- -->
-
-## ✍️ Daily Dev Quote
+## ✍️ Daily Kernel Log
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
@@ -208,7 +246,7 @@ A lightweight, cross-platform tool using AES-256-GCM encryption with Argon2id ke
 
 ---
 
-## � Dev Card
+## 🪪 Identity Node
 
 <div align="center">
   <a href="https://app.daily.dev/zayanmohamed">
@@ -218,7 +256,7 @@ A lightweight, cross-platform tool using AES-256-GCM encryption with Argon2id ke
 
 ---
 
-## �🔝 GitHub Metrics
+## 📊 Analytics & Performance
 
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Zayan-Mohamed&theme=radical" alt="Profile Details" />
@@ -231,7 +269,7 @@ A lightweight, cross-platform tool using AES-256-GCM encryption with Argon2id ke
 
 ---
 
-## 🐍 Contribution Graph
+## 🐍 Activity Pattern
 
 <div align="center">
   <picture>
@@ -243,24 +281,22 @@ A lightweight, cross-platform tool using AES-256-GCM encryption with Argon2id ke
 
 ---
 
----
-
 <div align="center">
 
 ```console
 ╭──────────────────────────────────────────────────────────────────────────────╮
 │                                                                              │
-│                        💬 Let's Build Something Great                        │
+│                 [SYSLOG] Handshake initiated. Ready to deploy.               │
 │                                                                              │
-│  Whether you're looking for a collaborator, need a full-stack developer,     │
-│  or just want to discuss the latest in tech—I'm here for it.                 │
+│  Whether you're looking for a collaborator, need a full-stack AI engineer,   │
+│  or just want to discuss the latest in tech—my DMs are open.                 │
 │                                                                              │
 │  ┌────────────────────────────────────────────────────────────────────────┐  │
-│  │  💼 Available for:                                                     │  │
-│  │     • Full-time opportunities in full-stack development                │  │
-│  │     • Freelance projects (web apps, automation, DevOps)                │  │
+│  │  ⚙️ Acceptable Payloads:                                               │  │
+│  │     • Full-time opportunities in Full-Stack & AI Development           │  │
+│  │     • Freelance infrastructure & agentic workflows                     │  │
 │  │     • Open source collaboration                                        │  │
-│  │     • Technical writing & content creation                             │  │
+│  │     • Technical writing & systems research                             │  │
 │  └────────────────────────────────────────────────────────────────────────┘  │
 │                                                                              │
 ╰──────────────────────────────────────────────────────────────────────────────╯
