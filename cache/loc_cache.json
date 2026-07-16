@@ -1,0 +1,338 @@
+{
+  "1nf1r4/ecommerce-return-prediction": {
+    "additions": 54219,
+    "commits": 62,
+    "deletions": 22071,
+    "earliest": "2025-09-10T15:01:20Z",
+    "total": 62
+  },
+  "Adagard-Trios/Veracity": {
+    "additions": 11464,
+    "commits": 6,
+    "deletions": 506,
+    "earliest": "2026-03-15T08:26:14Z",
+    "total": 6
+  },
+  "Agentrix-ComES/AGENTRIX26-TEAM14-Adagard": {
+    "additions": 16999,
+    "commits": 11,
+    "deletions": 4988,
+    "earliest": "2026-06-20T16:57:53Z",
+    "total": 11
+  },
+  "ForceFour/FinTrack": {
+    "additions": 46339,
+    "commits": 32,
+    "deletions": 25746,
+    "earliest": "2025-08-24T07:07:21Z",
+    "total": 32
+  },
+  "LakshanaK17/24x7screws": {
+    "additions": 606,
+    "commits": 5,
+    "deletions": 231,
+    "earliest": "2026-04-30T07:22:40Z",
+    "total": 5
+  },
+  "LakshanaK17/24x7screws_admin": {
+    "additions": 1912,
+    "commits": 6,
+    "deletions": 407,
+    "earliest": "2026-04-23T18:40:44Z",
+    "total": 6
+  },
+  "Zayan-Mohamed/Chatzooka": {
+    "additions": 7892,
+    "commits": 13,
+    "deletions": 141,
+    "earliest": "2024-12-18T16:15:35Z",
+    "total": 13
+  },
+  "Zayan-Mohamed/DoTask": {
+    "additions": 30097,
+    "commits": 16,
+    "deletions": 2345,
+    "earliest": "2025-05-24T23:37:12Z",
+    "total": 16
+  },
+  "Zayan-Mohamed/EMSystem": {
+    "additions": 24476,
+    "commits": 4,
+    "deletions": 9,
+    "earliest": "2024-11-03T08:12:03Z",
+    "total": 4
+  },
+  "Zayan-Mohamed/FinTrack": {
+    "additions": 10255,
+    "commits": 10,
+    "deletions": 50,
+    "earliest": "2025-05-01T23:33:51Z",
+    "total": 10
+  },
+  "Zayan-Mohamed/GoSync": {
+    "additions": 94943,
+    "commits": 78,
+    "deletions": 19414,
+    "earliest": "2025-03-01T12:32:02Z",
+    "total": 78
+  },
+  "Zayan-Mohamed/Healthcare-Satisfaction-Regression": {
+    "additions": 1296,
+    "commits": 1,
+    "deletions": 0,
+    "earliest": "2026-04-05T16:54:45Z",
+    "total": 1
+  },
+  "Zayan-Mohamed/IR-System": {
+    "additions": 935,
+    "commits": 1,
+    "deletions": 0,
+    "earliest": "2025-11-06T16:43:18Z",
+    "total": 1
+  },
+  "Zayan-Mohamed/LittleLoom": {
+    "additions": 4533,
+    "commits": 4,
+    "deletions": 528,
+    "earliest": "2025-03-16T03:50:52Z",
+    "total": 4
+  },
+  "Zayan-Mohamed/MoneyMate": {
+    "additions": 4116,
+    "commits": 2,
+    "deletions": 0,
+    "earliest": "2025-05-28T18:25:54Z",
+    "total": 2
+  },
+  "Zayan-Mohamed/Seattle911_ETL": {
+    "additions": 5984,
+    "commits": 2,
+    "deletions": 0,
+    "earliest": "2026-04-10T17:38:35Z",
+    "total": 2
+  },
+  "Zayan-Mohamed/Shopping-Cart": {
+    "additions": 10921,
+    "commits": 1,
+    "deletions": 0,
+    "earliest": "2024-11-29T19:55:17Z",
+    "total": 1
+  },
+  "Zayan-Mohamed/ShortlistIQ": {
+    "additions": 243,
+    "commits": 1,
+    "deletions": 0,
+    "earliest": "2026-01-06T18:58:26Z",
+    "total": 1
+  },
+  "Zayan-Mohamed/TwistList": {
+    "additions": 28832,
+    "commits": 27,
+    "deletions": 2306,
+    "earliest": "2026-02-13T14:22:28Z",
+    "total": 27
+  },
+  "Zayan-Mohamed/WealthTracker": {
+    "additions": 3716,
+    "commits": 1,
+    "deletions": 0,
+    "earliest": "2025-04-29T17:37:55Z",
+    "total": 1
+  },
+  "Zayan-Mohamed/WeatherApp": {
+    "additions": 889,
+    "commits": 1,
+    "deletions": 0,
+    "earliest": "2025-03-01T08:22:34Z",
+    "total": 1
+  },
+  "Zayan-Mohamed/Zayan-Mohamed": {
+    "additions": 730,
+    "commits": 17,
+    "deletions": 364,
+    "earliest": "2025-03-21T17:44:26Z",
+    "total": 17
+  },
+  "Zayan-Mohamed/aura": {
+    "additions": 36712,
+    "commits": 22,
+    "deletions": 7925,
+    "earliest": "2026-06-10T18:40:16Z",
+    "total": 22
+  },
+  "Zayan-Mohamed/chess-tui": {
+    "additions": 1662,
+    "commits": 1,
+    "deletions": 0,
+    "earliest": "2026-01-08T08:33:45Z",
+    "total": 1
+  },
+  "Zayan-Mohamed/cloud-engineer-assessment": {
+    "additions": 4322,
+    "commits": 4,
+    "deletions": 6,
+    "earliest": "2026-03-04T15:21:59Z",
+    "total": 4
+  },
+  "Zayan-Mohamed/data-engineer-assessment": {
+    "additions": 408,
+    "commits": 1,
+    "deletions": 0,
+    "earliest": "2026-03-04T08:31:07Z",
+    "total": 1
+  },
+  "Zayan-Mohamed/demo-project": {
+    "additions": 4877,
+    "commits": 1,
+    "deletions": 0,
+    "earliest": "2025-02-25T10:30:49Z",
+    "total": 1
+  },
+  "Zayan-Mohamed/dev-dash": {
+    "additions": 13425,
+    "commits": 23,
+    "deletions": 1873,
+    "earliest": "2025-12-31T19:14:44Z",
+    "total": 23
+  },
+  "Zayan-Mohamed/dot_files": {
+    "additions": 14676,
+    "commits": 32,
+    "deletions": 2062,
+    "earliest": "2025-09-04T17:01:24Z",
+    "total": 32
+  },
+  "Zayan-Mohamed/gitwiz": {
+    "additions": 6407,
+    "commits": 16,
+    "deletions": 1412,
+    "earliest": "2026-01-24T18:26:01Z",
+    "total": 16
+  },
+  "Zayan-Mohamed/homepage-dev-dashboard": {
+    "additions": 692,
+    "commits": 1,
+    "deletions": 0,
+    "earliest": "2026-07-02T09:04:57Z",
+    "total": 1
+  },
+  "Zayan-Mohamed/it3030-paf-2026-smart-campus-group163": {
+    "additions": 48979,
+    "commits": 41,
+    "deletions": 15135,
+    "earliest": "2026-03-19T15:52:13Z",
+    "total": 41
+  },
+  "Zayan-Mohamed/mcp-registry": {
+    "additions": 34343,
+    "commits": 3,
+    "deletions": 32202,
+    "earliest": "2026-01-28T17:29:07Z",
+    "total": 3
+  },
+  "Zayan-Mohamed/medigraph-ai": {
+    "additions": 1178,
+    "commits": 1,
+    "deletions": 0,
+    "earliest": "2026-01-02T18:51:10Z",
+    "total": 1
+  },
+  "Zayan-Mohamed/my-portfolio": {
+    "additions": 29824,
+    "commits": 41,
+    "deletions": 2850,
+    "earliest": "2024-11-18T19:10:44Z",
+    "total": 41
+  },
+  "Zayan-Mohamed/nextcrm-vision": {
+    "additions": 0,
+    "commits": 0,
+    "deletions": 0,
+    "earliest": null,
+    "total": 0
+  },
+  "Zayan-Mohamed/nova": {
+    "additions": 7246,
+    "commits": 8,
+    "deletions": 395,
+    "earliest": "2026-02-28T19:26:30Z",
+    "total": 8
+  },
+  "Zayan-Mohamed/orb": {
+    "additions": 15244,
+    "commits": 46,
+    "deletions": 1767,
+    "earliest": "2026-01-14T13:50:29Z",
+    "total": 46
+  },
+  "Zayan-Mohamed/paf-lab": {
+    "additions": 469,
+    "commits": 5,
+    "deletions": 0,
+    "earliest": "2026-01-31T08:45:19Z",
+    "total": 5
+  },
+  "Zayan-Mohamed/pivot": {
+    "additions": 68392,
+    "commits": 20,
+    "deletions": 49122,
+    "earliest": "2024-12-26T21:31:05Z",
+    "total": 20
+  },
+  "Zayan-Mohamed/secscan": {
+    "additions": 9359,
+    "commits": 20,
+    "deletions": 329,
+    "earliest": "2025-12-07T19:23:35Z",
+    "total": 20
+  },
+  "Zayan-Mohamed/skills-code-with-codespaces": {
+    "additions": 842,
+    "commits": 9,
+    "deletions": 14,
+    "earliest": "2025-01-01T15:53:55Z",
+    "total": 9
+  },
+  "Zayan-Mohamed/skills-copilot-codespaces-vscode": {
+    "additions": 754,
+    "commits": 1,
+    "deletions": 0,
+    "earliest": "2025-01-01T15:17:52Z",
+    "total": 1
+  },
+  "Zayan-Mohamed/supabase_notes": {
+    "additions": 5864,
+    "commits": 1,
+    "deletions": 0,
+    "earliest": "2025-06-27T12:21:10Z",
+    "total": 1
+  },
+  "Zayan-Mohamed/til": {
+    "additions": 705,
+    "commits": 6,
+    "deletions": 5,
+    "earliest": "2026-01-08T18:36:36Z",
+    "total": 6
+  },
+  "Zayan-Mohamed/validly": {
+    "additions": 4392,
+    "commits": 1,
+    "deletions": 0,
+    "earliest": "2026-01-20T15:32:37Z",
+    "total": 1
+  },
+  "Zayan-Mohamed/vaultix": {
+    "additions": 12229,
+    "commits": 13,
+    "deletions": 503,
+    "earliest": "2026-01-07T12:11:48Z",
+    "total": 13
+  },
+  "duwaragie/myportfolio": {
+    "additions": 666,
+    "commits": 9,
+    "deletions": 442,
+    "earliest": "2025-01-28T19:10:16Z",
+    "total": 9
+  }
+}

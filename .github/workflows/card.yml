@@ -1,0 +1,71 @@
+name: Profile Card
+
+on:
+  schedule:
+    # Every day at 04:00 UTC. The card carries a timestamp, so a run that fails
+    # is visible on the profile itself rather than passing unnoticed.
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "card/**"
+      - ".github/workflows/card.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  # A scheduled run and a manual run committing at once would conflict.
+  group: profile-card
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: "1.23"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+          # Pinned, not @latest: the card publishes this scanner's output, so
+          # the version that produced a number should be the version named
+          # beside it. Bump deliberately.
+          go install github.com/Zayan-Mohamed/secscan/v2@v2.2.3
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+
+      - name: Scan every public repo with secscan
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python card/scan_repos.py
+
+      - name: Build the card
+        env:
+          # A PAT is only needed to count private contributions. The default
+          # token is enough for public repos.
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python card/build.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dark_mode.svg light_mode.svg cache/
+          if git diff --staged --quiet; then
+            echo "card unchanged"
+            exit 0
+          fi
+          git commit -m "chore: refresh profile card [skip ci]"
+          git push

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" width="1092px" height="774px" font-size="16px">
+<style>
+.key { fill: #953800; }
+.value { fill: #0550ae; }
+.cc { fill: #8c959f; }
+.hd { fill: #116329; font-weight: bold; }
+.add { fill: #1a7f37; }
+.del { fill: #cf222e; }
+text, tspan { white-space: pre; }
+</style>
+<rect width="1092px" height="774px" fill="#ffffff" rx="15"/>
+<text x="15" y="30" fill="#24292f" class="ascii">
+<tspan x="15" y="30">███████╗ █████╗ ██╗   ██╗ █████╗ ███╗   ██╗</tspan>
+<tspan x="15" y="50">╚══███╔╝██╔══██╗╚██╗ ██╔╝██╔══██╗████╗  ██║</tspan>
+<tspan x="15" y="70">  ███╔╝ ███████║ ╚████╔╝ ███████║██╔██╗ ██║</tspan>
+<tspan x="15" y="90"> ███╔╝  ██╔══██║  ╚██╔╝  ██╔══██║██║╚██╗██║</tspan>
+<tspan x="15" y="110">███████╗██║  ██║   ██║   ██║  ██║██║ ╚████║</tspan>
+<tspan x="15" y="130">╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝</tspan>
+<tspan x="15" y="150"></tspan>
+<tspan x="15" y="170"></tspan>
+<tspan x="15" y="190">                 .88888888:.</tspan>
+<tspan x="15" y="210">                88888888.88888.</tspan>
+<tspan x="15" y="230">              .8888888888888888.</tspan>
+<tspan x="15" y="250">              888888888888888888</tspan>
+<tspan x="15" y="270">              88' _`88'_  `88888</tspan>
+<tspan x="15" y="290">              88 88 88 88  88888</tspan>
+<tspan x="15" y="310">              88_88_::_88_:88888</tspan>
+<tspan x="15" y="330">              88:::,::,:::::8888</tspan>
+<tspan x="15" y="350">              88`:::::::::'`8888</tspan>
+<tspan x="15" y="370">             .88  `::::'    8:88.</tspan>
+<tspan x="15" y="390">            8888            `8:888.</tspan>
+<tspan x="15" y="410">          .8888'             `888888.</tspan>
+<tspan x="15" y="430">         .8888:..  .::.  ...:'8888888:.</tspan>
+<tspan x="15" y="450">        .8888.'     :'     `'::`88:88888</tspan>
+<tspan x="15" y="470">       .8888        '         `.888:8888.</tspan>
+<tspan x="15" y="490">      888:8         .           888:88888</tspan>
+<tspan x="15" y="510">    .888:88        .:           888:88888:</tspan>
+<tspan x="15" y="530">    8888888.       ::           88:888888</tspan>
+<tspan x="15" y="550">    `.::.888.      ::          .88888888</tspan>
+<tspan x="15" y="570">   .::::::.888.    ::         :::`8888'.:.</tspan>
+<tspan x="15" y="590">  ::::::::::.888.  :       .:8888.::::::::</tspan>
+<tspan x="15" y="610">  ::::::::::::.8888.     ..:8888888:.:::::</tspan>
+<tspan x="15" y="630">  ::::::::::::::88888...::88888888::::::::</tspan>
+<tspan x="15" y="650">  ::::::::::::::::88888:88888888888::::::</tspan>
+</text>
+<text x="456" y="30" fill="#24292f">
+<tspan x="456" y="30"><tspan class="hd">zayan-mohamed@colombo</tspan><tspan class="cc"> -———————————————————————————————————————-—-</tspan></tspan>
+<tspan x="456" y="50" class="cc">. </tspan><tspan class="key">OS</tspan><tspan class="cc">:</tspan><tspan class="cc"> .................................................... </tspan><tspan class="value">Linux</tspan>
+<tspan x="456" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan><tspan class="cc">:</tspan><tspan class="cc" id="uptime_dots"> ............................ </tspan><tspan class="value" id="uptime">1 year, 8 months, 13 days</tspan>
+<tspan x="456" y="90" class="cc">. </tspan><tspan class="key">Host</tspan><tspan class="cc">:</tspan><tspan class="cc"> .................... </tspan><tspan class="value">SLIIT — BSc (Hons) IT, Data Science</tspan>
+<tspan x="456" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan><tspan class="cc">:</tspan><tspan class="cc"> ............. </tspan><tspan class="value">Software Engineer · DevOps · Open Source</tspan>
+<tspan x="456" y="130" class="cc">. </tspan><tspan class="key">Editor</tspan><tspan class="cc">:</tspan><tspan class="cc"> ...................................... </tspan><tspan class="value">Neovim, VS Code</tspan>
+<tspan x="456" y="150" class="cc">. </tspan>
+<tspan x="456" y="170" class="cc">. </tspan><tspan class="key">Languages.Programming</tspan><tspan class="cc">:</tspan><tspan class="cc"> .. </tspan><tspan class="value">Go, Python, TypeScript, Java, Kotlin</tspan>
+<tspan x="456" y="190" class="cc">. </tspan><tspan class="key">Languages.Computer</tspan><tspan class="cc">:</tspan><tspan class="cc"> ......... </tspan><tspan class="value">HTML, CSS, SQL, YAML, TOML, JSON</tspan>
+<tspan x="456" y="210" class="cc">. </tspan>
+<tspan x="456" y="230" class="hd">- Shipping </tspan><tspan class="cc">-————————————————————————————————————————————————————-—-</tspan>
+<tspan x="456" y="250" class="cc">. </tspan><tspan class="key">orb</tspan><tspan class="cc">:</tspan><tspan class="cc"> ..................... </tspan><tspan class="value">17★  Orb is a secure, terminal-fir…</tspan>
+<tspan x="456" y="270" class="cc">. </tspan><tspan class="key">secscan</tspan><tspan class="cc">:</tspan><tspan class="cc"> .................. </tspan><tspan class="value">4★  SecScan is a fast, configurab…</tspan>
+<tspan x="456" y="290" class="cc">. </tspan><tspan class="key">nova</tspan><tspan class="cc">:</tspan><tspan class="cc"> ..................... </tspan><tspan class="value">2★  A terminal-based WiFi and LAN…</tspan>
+<tspan x="456" y="310" class="cc">. </tspan><tspan class="key">dot_files</tspan><tspan class="cc">:</tspan><tspan class="cc"> ................ </tspan><tspan class="value">2★  Personal Linux dotfiles manag…</tspan>
+<tspan x="456" y="330" class="cc">. </tspan><tspan class="key">gitwiz</tspan><tspan class="cc">:</tspan><tspan class="cc"> ................... </tspan><tspan class="value">1★  🧙 Interactive Git commit wiza…</tspan>
+<tspan x="456" y="350" class="cc">. </tspan>
+<tspan x="456" y="370" class="hd">- secscan v2.2.2, run against my own code, daily </tspan><tspan class="cc">-——————————————-—-</tspan>
+<tspan x="456" y="390" class="cc">. </tspan><tspan class="key">Repos scanned</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_repos_dots"> ............................................ </tspan><tspan class="value" id="scan_repos">37</tspan>
+<tspan x="456" y="410" class="cc">. </tspan><tspan class="key">Files</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_files_dots"> ................................................. </tspan><tspan class="value" id="scan_files">1,874</tspan>
+<tspan x="456" y="430" class="cc">. </tspan><tspan class="key">Git history</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_commits_dots"> ................................... </tspan><tspan class="value" id="scan_commits">1,362 commits</tspan>
+<tspan x="456" y="450" class="cc">. </tspan><tspan class="key">Scan time</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_time_dots"> ............................................. </tspan><tspan class="value" id="scan_time">24.0s</tspan>
+<tspan x="456" y="470" class="cc">. </tspan><tspan class="key">Findings</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_findings_dots"> ......................... </tspan><tspan class="value" id="scan_findings">20 (2 at &gt;=0.9 confidence)</tspan>
+<tspan x="456" y="490" class="cc">. </tspan><tspan class="key">Last run</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_at_dots"> ............................... </tspan><tspan class="value" id="scan_at">2026-07-16 20:41 UTC</tspan>
+<tspan x="456" y="510" class="cc">. </tspan>
+<tspan x="456" y="530" class="hd">- GitHub </tspan><tspan class="cc">-——————————————————————————————————————————————————————-—-</tspan>
+<tspan x="456" y="550" class="cc">. </tspan><tspan class="key">Repos</tspan><tspan class="cc">:</tspan><tspan class="cc" id="gh_repos_dots"> ...................................... </tspan><tspan class="value" id="gh_repos">41  |  Stars: 27</tspan>
+<tspan x="456" y="570" class="cc">. </tspan><tspan class="key">Commits</tspan><tspan class="cc">:</tspan><tspan class="cc" id="gh_commits_dots"> ................................ </tspan><tspan class="value" id="gh_commits">627  |  Followers: 6</tspan>
+<tspan x="456" y="590" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan><tspan class="cc">:</tspan><tspan class="cc" id="loc_dots"> .... </tspan><tspan class="value" id="loc">489,916</tspan><tspan class="cc"> ( </tspan><tspan class="add" id="loc_add">685,064++</tspan><tspan class="cc">, </tspan><tspan class="del" id="loc_del">195,148--</tspan><tspan class="cc"> )</tspan>
+<tspan x="456" y="610" class="cc">. </tspan>
+<tspan x="456" y="630" class="hd">- Contact </tspan><tspan class="cc">-—————————————————————————————————————————————————————-—-</tspan>
+<tspan x="456" y="650" class="cc">. </tspan><tspan class="key">Location</tspan><tspan class="cc">:</tspan><tspan class="cc"> ................................. </tspan><tspan class="value">Colombo, Sri Lanka</tspan>
+<tspan x="456" y="670" class="cc">. </tspan><tspan class="key">Email</tspan><tspan class="cc">:</tspan><tspan class="cc"> ........................... </tspan><tspan class="value">zayanmohamed.tech@gmail.com</tspan>
+<tspan x="456" y="690" class="cc">. </tspan><tspan class="key">LinkedIn</tspan><tspan class="cc">:</tspan><tspan class="cc"> ...................................... </tspan><tspan class="value">zayan-mohamed</tspan>
+<tspan x="456" y="710" class="cc">. </tspan><tspan class="key">Portfolio</tspan><tspan class="cc">:</tspan><tspan class="cc"> ........................ </tspan><tspan class="value">portfolio-zayan.vercel.app</tspan>
+<tspan x="456" y="730" class="cc">. </tspan><tspan class="key">Dev.to</tspan><tspan class="cc">:</tspan><tspan class="cc"> ......................................... </tspan><tspan class="value">zayanmohamed</tspan>
+</text>
+</svg>
