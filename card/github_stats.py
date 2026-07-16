@@ -41,6 +41,7 @@ class Repo:
     is_private: bool
     has_commits: bool
     description: str = ""
+    languages: dict[str, int] = field(default_factory=dict)
 
     @property
     def owner(self) -> str:
@@ -63,6 +64,10 @@ class Stats:
     deletions: int = 0
     first_commit: datetime | None = None
     top_repos: list[Repo] = field(default_factory=list)
+    # Bytes of source per language, summed across every non-fork repo. This is
+    # the same measure GitHub's own language bar uses, so vendored and
+    # generated files are already excluded by linguist.
+    languages: dict[str, int] = field(default_factory=dict)
 
     @property
     def loc(self) -> int:
@@ -83,11 +88,20 @@ class GitHubClient:
     def query(self, document: str, variables: dict[str, Any]) -> dict[str, Any]:
         """Run one GraphQL query, retrying on rate limits and transient 5xx."""
         for attempt in range(5):
-            response = self._session.post(
-                API_URL,
-                json={"query": document, "variables": variables},
-                timeout=30,
-            )
+            try:
+                response = self._session.post(
+                    API_URL,
+                    json={"query": document, "variables": variables},
+                    timeout=30,
+                )
+            except requests.RequestException:
+                # A dropped connection is as transient as a 502, and a long
+                # lines-of-code walk gives it plenty of chances to happen.
+                # Failing here would leave the card stale with no explanation.
+                if attempt == 4:
+                    raise
+                time.sleep(2**attempt)
+                continue
 
             if response.status_code in (502, 503, 504):
                 time.sleep(2**attempt)
@@ -139,6 +153,12 @@ query($login: String!, $cursor: String, $affiliations: [RepositoryAffiliation]) 
         isPrivate
         description
         defaultBranchRef { name }
+        languages(first: 10, orderBy: { field: SIZE, direction: DESC }) {
+          edges {
+            size
+            node { name }
+          }
+        }
       }
     }
   }
@@ -183,6 +203,10 @@ def _iter_repos(
                     is_private=node["isPrivate"],
                     has_commits=node["defaultBranchRef"] is not None,
                     description=node.get("description") or "",
+                    languages={
+                        edge["node"]["name"]: edge["size"]
+                        for edge in (node.get("languages") or {}).get("edges", [])
+                    },
                 ),
                 block["totalCount"],
             )
@@ -319,6 +343,12 @@ def collect(token: str, login: str) -> Stats:
                 stats.first_commit = moment
 
     _save_cache(cache)
+
+    for repo in owned:
+        if repo.is_private:
+            continue
+        for language, size in repo.languages.items():
+            stats.languages[language] = stats.languages.get(language, 0) + size
 
     stats.top_repos = sorted(
         (r for r in owned if not r.is_private),

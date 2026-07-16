@@ -24,13 +24,14 @@ SCAN_PATH = ROOT / "cache" / "secscan.json"
 
 LOGIN = "Zayan-Mohamed"
 
+# The only hand-written content on the card, and deliberately limited to things
+# that are true, stable, and not measurable from an API. There is no language
+# list here: that used to be typed out, and is now counted in bytes.
 IDENTITY = {
     "os": "Linux",
     "host": "SLIIT — BSc (Hons) IT, Data Science",
     "kernel": "Software Engineer · DevOps · Open Source",
     "editor": "Neovim, VS Code",
-    "languages": "Go, Python, TypeScript, Java, Kotlin",
-    "markup": "HTML, CSS, SQL, YAML, TOML, JSON",
 }
 
 CONTACT = [
@@ -110,6 +111,8 @@ def main() -> None:
         "login": f"{LOGIN.lower()}@colombo",
         "uptime": github_stats.uptime(stats.first_commit),
         "repos": top,
+        "languages": render.language_chart(stats.languages),
+        "language_total": render.human_bytes(sum(stats.languages.values())),
         "scan": load_scan(),
         "contact": CONTACT,
         "stats": {
