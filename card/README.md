@@ -36,18 +36,19 @@ It reports raw findings and the count at `>=0.9` confidence, because those are
 mechanical facts. It does not claim "0 secrets" — that would be a human
 judgement about triage, and a number a script can't honestly maintain.
 
-Building this is what surfaced a stack of bugs in
-[secscan](https://github.com/Zayan-Mohamed/secscan) itself: `-root` was ignored
-by the history scanner, so every CI user silently got no history coverage;
-entropy detection was mathematically incapable of firing on a real credential;
-and deduplication across commits could never fire. Pointing the tool at my own
-code found them in an afternoon.
+Building this is what surfaced the bugs fixed in
+[secscan v2.2.3](https://github.com/Zayan-Mohamed/secscan/blob/main/CHANGELOG.md):
+`-root` was ignored by the history scanner, so every CI user silently got no
+history coverage; entropy detection was mathematically incapable of firing on a
+real credential; and deduplication across commits could never fire. Pointing the
+tool at my own code found them in an afternoon. False positives went from 475 to
+20 on this corpus, with no loss of recall.
 
 ## Running it locally
 
 ```bash
 pip install requests
-go install github.com/Zayan-Mohamed/secscan@latest
+go install github.com/Zayan-Mohamed/secscan/v2@v2.2.3
 
 GITHUB_TOKEN=$(gh auth token) python card/scan_repos.py   # writes cache/secscan.json
 GITHUB_TOKEN=$(gh auth token) python card/build.py        # writes the SVGs
