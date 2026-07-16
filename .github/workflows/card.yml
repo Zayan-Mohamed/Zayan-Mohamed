@@ -44,7 +44,7 @@ jobs:
           # Pinned, not @latest: the card publishes this scanner's output, so
           # the version that produced a number should be the version named
           # beside it. Bump deliberately.
-          go install github.com/Zayan-Mohamed/secscan/v2@v2.2.3
+          go install github.com/Zayan-Mohamed/secscan/v2@v2.2.4
           echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
 
       - name: Scan every public repo with secscan

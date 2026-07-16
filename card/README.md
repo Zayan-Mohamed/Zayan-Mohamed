@@ -48,7 +48,7 @@ tool at my own code found them in an afternoon. False positives went from 475 to
 
 ```bash
 pip install requests
-go install github.com/Zayan-Mohamed/secscan/v2@v2.2.3
+go install github.com/Zayan-Mohamed/secscan/v2@v2.2.4
 
 GITHUB_TOKEN=$(gh auth token) python card/scan_repos.py   # writes cache/secscan.json
 GITHUB_TOKEN=$(gh auth token) python card/build.py        # writes the SVGs

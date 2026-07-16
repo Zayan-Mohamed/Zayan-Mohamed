@@ -13,18 +13,18 @@ text, tspan { white-space: pre; }
 <rect width="1092px" height="614px" fill="#ffffff" rx="15"/>
 <text x="15" y="30" fill="#24292f" class="ascii">
 <tspan x="15" y="30"><tspan class="hd">- Source by language </tspan><tspan class="cc">-———————————————————-—-</tspan></tspan>
-<tspan x="15" y="50"><tspan class="key">JavaScript      </tspan><tspan class="cc"> </tspan><tspan class="bar">██████████████████████</tspan><tspan class="cc"></tspan><tspan class="cc"> </tspan><tspan class="value">24.6%</tspan></tspan>
-<tspan x="15" y="70"><tspan class="key">TypeScript      </tspan><tspan class="cc"> </tspan><tspan class="bar">██████████████████████</tspan><tspan class="cc"></tspan><tspan class="cc"> </tspan><tspan class="value">24.3%</tspan></tspan>
-<tspan x="15" y="90"><tspan class="key">Jupyter Notebook</tspan><tspan class="cc"> </tspan><tspan class="bar">███████████</tspan><tspan class="cc">░░░░░░░░░░░</tspan><tspan class="cc"> </tspan><tspan class="value">12.2%</tspan></tspan>
-<tspan x="15" y="110"><tspan class="key">Java            </tspan><tspan class="cc"> </tspan><tspan class="bar">███████</tspan><tspan class="cc">░░░░░░░░░░░░░░░</tspan><tspan class="cc"> </tspan><tspan class="value"> 7.5%</tspan></tspan>
-<tspan x="15" y="130"><tspan class="key">Svelte          </tspan><tspan class="cc"> </tspan><tspan class="bar">██████</tspan><tspan class="cc">░░░░░░░░░░░░░░░░</tspan><tspan class="cc"> </tspan><tspan class="value"> 7.2%</tspan></tspan>
-<tspan x="15" y="150"><tspan class="key">Go              </tspan><tspan class="cc"> </tspan><tspan class="bar">█████</tspan><tspan class="cc">░░░░░░░░░░░░░░░░░</tspan><tspan class="cc"> </tspan><tspan class="value"> 5.2%</tspan></tspan>
-<tspan x="15" y="170"><tspan class="key">Python          </tspan><tspan class="cc"> </tspan><tspan class="bar">████</tspan><tspan class="cc">░░░░░░░░░░░░░░░░░░</tspan><tspan class="cc"> </tspan><tspan class="value"> 4.1%</tspan></tspan>
-<tspan x="15" y="190"><tspan class="key">Shell           </tspan><tspan class="cc"> </tspan><tspan class="bar">███</tspan><tspan class="cc">░░░░░░░░░░░░░░░░░░░</tspan><tspan class="cc"> </tspan><tspan class="value"> 3.4%</tspan></tspan>
-<tspan x="15" y="210"><tspan class="key">CSS             </tspan><tspan class="cc"> </tspan><tspan class="bar">███</tspan><tspan class="cc">░░░░░░░░░░░░░░░░░░░</tspan><tspan class="cc"> </tspan><tspan class="value"> 3.1%</tspan></tspan>
-<tspan x="15" y="230"><tspan class="key">other           </tspan><tspan class="cc"> </tspan><tspan class="bar">████████</tspan><tspan class="cc">░░░░░░░░░░░░░░</tspan><tspan class="cc"> </tspan><tspan class="value"> 8.6%</tspan></tspan>
+<tspan x="15" y="50"><tspan class="key">TypeScript      </tspan><tspan class="cc"> </tspan><tspan class="bar">██████████████████████</tspan><tspan class="cc"></tspan><tspan class="cc"> </tspan><tspan class="value">22.9%</tspan></tspan>
+<tspan x="15" y="70"><tspan class="key">JavaScript      </tspan><tspan class="cc"> </tspan><tspan class="bar">███████████████████</tspan><tspan class="cc">░░░</tspan><tspan class="cc"> </tspan><tspan class="value">20.2%</tspan></tspan>
+<tspan x="15" y="90"><tspan class="key">Python          </tspan><tspan class="cc"> </tspan><tspan class="bar">██████████████████</tspan><tspan class="cc">░░░░</tspan><tspan class="cc"> </tspan><tspan class="value">19.1%</tspan></tspan>
+<tspan x="15" y="110"><tspan class="key">Jupyter Notebook</tspan><tspan class="cc"> </tspan><tspan class="bar">███████████</tspan><tspan class="cc">░░░░░░░░░░░</tspan><tspan class="cc"> </tspan><tspan class="value">11.5%</tspan></tspan>
+<tspan x="15" y="130"><tspan class="key">Java            </tspan><tspan class="cc"> </tspan><tspan class="bar">█████</tspan><tspan class="cc">░░░░░░░░░░░░░░░░░</tspan><tspan class="cc"> </tspan><tspan class="value"> 5.5%</tspan></tspan>
+<tspan x="15" y="150"><tspan class="key">Svelte          </tspan><tspan class="cc"> </tspan><tspan class="bar">█████</tspan><tspan class="cc">░░░░░░░░░░░░░░░░░</tspan><tspan class="cc"> </tspan><tspan class="value"> 5.3%</tspan></tspan>
+<tspan x="15" y="170"><tspan class="key">Go              </tspan><tspan class="cc"> </tspan><tspan class="bar">████</tspan><tspan class="cc">░░░░░░░░░░░░░░░░░░</tspan><tspan class="cc"> </tspan><tspan class="value"> 3.9%</tspan></tspan>
+<tspan x="15" y="190"><tspan class="key">Shell           </tspan><tspan class="cc"> </tspan><tspan class="bar">██</tspan><tspan class="cc">░░░░░░░░░░░░░░░░░░░░</tspan><tspan class="cc"> </tspan><tspan class="value"> 2.5%</tspan></tspan>
+<tspan x="15" y="210"><tspan class="key">CSS             </tspan><tspan class="cc"> </tspan><tspan class="bar">██</tspan><tspan class="cc">░░░░░░░░░░░░░░░░░░░░</tspan><tspan class="cc"> </tspan><tspan class="value"> 2.4%</tspan></tspan>
+<tspan x="15" y="230"><tspan class="key">other           </tspan><tspan class="cc"> </tspan><tspan class="bar">███████</tspan><tspan class="cc">░░░░░░░░░░░░░░░</tspan><tspan class="cc"> </tspan><tspan class="value"> 6.8%</tspan></tspan>
 <tspan x="15" y="250"></tspan>
-<tspan x="15" y="270"><tspan class="cc">measured across 37 repos · </tspan><tspan class="value">7.0 MB</tspan><tspan class="cc"> of source</tspan></tspan>
+<tspan x="15" y="270"><tspan class="cc">measured across 41 repos · </tspan><tspan class="value">9.6 MB</tspan><tspan class="cc"> of source</tspan></tspan>
 <tspan x="15" y="290"></tspan>
 <tspan x="15" y="310"><tspan class="hd">- Contact </tspan><tspan class="cc">-——————————————————————————————-—-</tspan></tspan>
 <tspan x="15" y="330"><tspan class="key">Location </tspan><tspan class="cc">  </tspan><tspan class="value">Colombo, Sri Lanka</tspan></tspan>
@@ -54,17 +54,17 @@ text, tspan { white-space: pre; }
 <tspan x="456" y="250" class="cc">. </tspan><tspan class="key">dot_files</tspan><tspan class="cc">:</tspan><tspan class="cc"> ................ </tspan><tspan class="value">2★  Personal Linux dotfiles manag…</tspan>
 <tspan x="456" y="270" class="cc">. </tspan><tspan class="key">gitwiz</tspan><tspan class="cc">:</tspan><tspan class="cc"> ................... </tspan><tspan class="value">1★  🧙 Interactive Git commit wiza…</tspan>
 <tspan x="456" y="290" class="cc">. </tspan>
-<tspan x="456" y="310" class="hd">- secscan v2.2.3, run against my own code, daily </tspan><tspan class="cc">-——————————————-—-</tspan>
+<tspan x="456" y="310" class="hd">- secscan v2.2.4, run against my own code, daily </tspan><tspan class="cc">-——————————————-—-</tspan>
 <tspan x="456" y="330" class="cc">. </tspan><tspan class="key">Repos scanned</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_repos_dots"> ............................................ </tspan><tspan class="value" id="scan_repos">37</tspan>
-<tspan x="456" y="350" class="cc">. </tspan><tspan class="key">Files</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_files_dots"> ................................................. </tspan><tspan class="value" id="scan_files">1,882</tspan>
-<tspan x="456" y="370" class="cc">. </tspan><tspan class="key">Git history</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_commits_dots"> ................................... </tspan><tspan class="value" id="scan_commits">1,371 commits</tspan>
-<tspan x="456" y="390" class="cc">. </tspan><tspan class="key">Scan time</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_time_dots"> ............................................. </tspan><tspan class="value" id="scan_time">25.5s</tspan>
-<tspan x="456" y="410" class="cc">. </tspan><tspan class="key">Findings</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_findings_dots"> ......................... </tspan><tspan class="value" id="scan_findings">27 (7 at &gt;=0.9 confidence)</tspan>
-<tspan x="456" y="430" class="cc">. </tspan><tspan class="key">Last run</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_at_dots"> ............................... </tspan><tspan class="value" id="scan_at">2026-07-16 21:37 UTC</tspan>
+<tspan x="456" y="350" class="cc">. </tspan><tspan class="key">Files</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_files_dots"> ................................................. </tspan><tspan class="value" id="scan_files">1,881</tspan>
+<tspan x="456" y="370" class="cc">. </tspan><tspan class="key">Git history</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_commits_dots"> ................................... </tspan><tspan class="value" id="scan_commits">1,373 commits</tspan>
+<tspan x="456" y="390" class="cc">. </tspan><tspan class="key">Scan time</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_time_dots"> ............................................. </tspan><tspan class="value" id="scan_time">24.6s</tspan>
+<tspan x="456" y="410" class="cc">. </tspan><tspan class="key">Findings</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_findings_dots"> ......................... </tspan><tspan class="value" id="scan_findings">20 (2 at &gt;=0.9 confidence)</tspan>
+<tspan x="456" y="430" class="cc">. </tspan><tspan class="key">Last run</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_at_dots"> ............................... </tspan><tspan class="value" id="scan_at">2026-07-16 21:45 UTC</tspan>
 <tspan x="456" y="450" class="cc">. </tspan>
 <tspan x="456" y="470" class="hd">- GitHub </tspan><tspan class="cc">-——————————————————————————————————————————————————————-—-</tspan>
-<tspan x="456" y="490" class="cc">. </tspan><tspan class="key">Repos</tspan><tspan class="cc">:</tspan><tspan class="cc" id="gh_repos_dots"> ...................................... </tspan><tspan class="value" id="gh_repos">37  |  Stars: 27</tspan>
-<tspan x="456" y="510" class="cc">. </tspan><tspan class="key">Commits</tspan><tspan class="cc">:</tspan><tspan class="cc" id="gh_commits_dots"> ................................ </tspan><tspan class="value" id="gh_commits">502  |  Followers: 6</tspan>
-<tspan x="456" y="530" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan><tspan class="cc">:</tspan><tspan class="cc" id="loc_dots"> .... </tspan><tspan class="value" id="loc">419,657</tspan><tspan class="cc"> ( </tspan><tspan class="add" id="loc_add">566,641++</tspan><tspan class="cc">, </tspan><tspan class="del" id="loc_del">146,984--</tspan><tspan class="cc"> )</tspan>
+<tspan x="456" y="490" class="cc">. </tspan><tspan class="key">Repos</tspan><tspan class="cc">:</tspan><tspan class="cc" id="gh_repos_dots"> ...................................... </tspan><tspan class="value" id="gh_repos">41  |  Stars: 27</tspan>
+<tspan x="456" y="510" class="cc">. </tspan><tspan class="key">Commits</tspan><tspan class="cc">:</tspan><tspan class="cc" id="gh_commits_dots"> ................................ </tspan><tspan class="value" id="gh_commits">636  |  Followers: 6</tspan>
+<tspan x="456" y="530" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan><tspan class="cc">:</tspan><tspan class="cc" id="loc_dots"> .... </tspan><tspan class="value" id="loc">494,108</tspan><tspan class="cc"> ( </tspan><tspan class="add" id="loc_add">690,524++</tspan><tspan class="cc">, </tspan><tspan class="del" id="loc_del">196,416--</tspan><tspan class="cc"> )</tspan>
 </text>
 </svg>
