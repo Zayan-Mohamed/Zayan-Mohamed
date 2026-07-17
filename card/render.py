@@ -88,6 +88,41 @@ def _text(s: str) -> str:
     return escape(str(s))
 
 
+def _wipe(x: int, y: int, w: int, h: int, fill: str, dur: float, hold: float = 0.0) -> str:
+    """A background-coloured rectangle that animates out of the way, revealing
+    whatever it was covering.
+
+    The reveal is done by *uncovering*, never by drawing, so the honest static
+    card is the end state: the rect's base ``width`` is 0, which is what a
+    renderer that ignores SMIL (or a viewer who never replays the animation)
+    sees -- nothing covered, every measured value already in place. The
+    animation only ever starts fully covering and retracts left-to-right.
+
+    ``hold`` (0..1) keeps the cover in place for that fraction of the run before
+    it starts retracting, so several wipes sharing one ``begin="0s"`` clock can
+    be staggered without any of them flashing their content first.
+    """
+    x2 = x + w
+    ease = "0.4 0 0.2 1"
+    if hold <= 0:
+        anims = (
+            f'<animate attributeName="x" from="{x}" to="{x2}" dur="{dur}s" '
+            f'begin="0s" calcMode="spline" keyTimes="0;1" keySplines="{ease}" fill="freeze"/>'
+            f'<animate attributeName="width" from="{w}" to="0" dur="{dur}s" '
+            f'begin="0s" calcMode="spline" keyTimes="0;1" keySplines="{ease}" fill="freeze"/>'
+        )
+    else:
+        kt = f"0;{hold:.3f};1"
+        ks = f"0 0 1 1;{ease}"
+        anims = (
+            f'<animate attributeName="x" values="{x};{x};{x2}" keyTimes="{kt}" '
+            f'dur="{dur}s" begin="0s" calcMode="spline" keySplines="{ks}" fill="freeze"/>'
+            f'<animate attributeName="width" values="{w};{w};0" keyTimes="{kt}" '
+            f'dur="{dur}s" begin="0s" calcMode="spline" keySplines="{ks}" fill="freeze"/>'
+        )
+    return f'<rect x="{x}" y="{y}" width="0" height="{h}" fill="{fill}">{anims}</rect>'
+
+
 def human_bytes(count: int) -> str:
     """Render a byte count the way a terminal would."""
     size = float(count)
@@ -197,6 +232,11 @@ def render(data: dict, palette: Palette) -> str:
 
     col = Column(right_x)
 
+    # Reveal overlays, drawn on top of the finished card. Each is a
+    # background-coloured wipe that retracts to expose a measured value; see
+    # _wipe for why this is safe when the animation does not run.
+    overlays: list[str] = []
+
     col.raw(
         f'<tspan class="hd">{_text(data["login"])}</tspan>'
         f'<tspan class="cc"> -{"—" * (COLUMN_CHARS - len(data["login"]) - 4)}-—-</tspan>'
@@ -243,6 +283,21 @@ def render(data: dict, palette: Palette) -> str:
     used = 2 + len(label) + 2 + len(loc) + 1
     tail = f" ( {stats['additions']:,}++, {stats['deletions']:,}-- )"
     dots = "." * max(COLUMN_CHARS - used - len(tail), 1)
+
+    # Geometry for the lines-of-code reveal, captured before the row is placed.
+    # The value and its coloured +/- breakdown are the card's headline count, so
+    # they get their own wipe that lands just after the language bars settle.
+    loc_baseline = TOP + len(col.rows) * LINE_HEIGHT
+    add_txt = f"{stats['additions']:,}++"
+    del_txt = f"{stats['deletions']:,}--"
+    loc_offset = 2 + len(label) + 1 + 1 + len(dots) + 1
+    loc_end = loc_offset + len(loc) + len(" ( ") + len(add_txt) + len(", ") + len(del_txt) + len(" )")
+    loc_x = col.x + round(loc_offset * CHAR_WIDTH)
+    loc_w = round((loc_end - loc_offset) * CHAR_WIDTH)
+    overlays.append(
+        _wipe(loc_x, loc_baseline - 15, loc_w, 20, palette.background, dur=1.9, hold=0.55)
+    )
+
     col.rows.append(
         f'<tspan x="{col.x}" y="{col._y()}" class="cc">. </tspan>'
         f'<tspan class="key">{label}</tspan>'
@@ -269,6 +324,30 @@ def render(data: dict, palette: Palette) -> str:
     left_row(f'<tspan class="hd">- Source by language </tspan><tspan class="cc">-{rule}-—-</tspan>')
 
     name_width = max((len(name) for name, _, _ in data["languages"]), default=0)
+    pct_width = max((len(p) for _, _, p in data["languages"]), default=0)
+
+    # The bars are the measured centrepiece, so they get the leading reveal: a
+    # single wipe across the whole bar+percent block. Because it uncovers
+    # left-to-right and the bars differ in length, short bars finish early while
+    # long ones keep extending -- the wipe reads as each bar growing to its true
+    # proportion. Names stay put as static labels.
+    if data["languages"]:
+        first_bar_row = len(left)
+        n_bars = len(data["languages"])
+        bar_x = LEFT_X + round((name_width + 1) * CHAR_WIDTH)
+        bar_w = round((BAR_CHARS + 1 + pct_width) * CHAR_WIDTH)
+        bar_y = TOP + first_bar_row * LINE_HEIGHT
+        overlays.append(
+            _wipe(
+                bar_x,
+                bar_y - 15,
+                bar_w,
+                (n_bars - 1) * LINE_HEIGHT + 20,
+                palette.background,
+                dur=1.5,
+            )
+        )
+
     for name, (filled, empty), percent in data["languages"]:
         left_row(
             f'<tspan class="key">{_text(name.ljust(name_width))}</tspan>'
@@ -336,5 +415,6 @@ text, tspan {{ white-space: pre; }}
 <text x="{right_x}" y="{TOP}" fill="{palette.text}">
 {chr(10).join(col.rows)}
 </text>
+{chr(10).join(overlays)}
 </svg>
 """
