@@ -2,11 +2,11 @@
   "repos_scanned": 37,
   "repos_failed": 0,
   "files_scanned": 1881,
-  "commits_scanned": 1374,
+  "commits_scanned": 1376,
   "findings": 20,
   "findings_high": 2,
-  "duration_ms": 26413,
+  "duration_ms": 25755,
   "version": "2.2.4",
-  "scanned_at": "2026-07-16 21:58 UTC",
+  "scanned_at": "2026-07-17 06:24 UTC",
   "history_gaps": 0
 }
