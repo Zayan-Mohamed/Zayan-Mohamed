@@ -127,11 +127,13 @@ def main() -> None:
         **IDENTITY,
     }
 
-    for filename, palette in (
-        ("dark_mode.svg", render.DARK),
-        ("light_mode.svg", render.LIGHT),
+    here = Path(__file__).resolve().parent
+    for filename, palette, art in (
+        ("dark_mode.svg", render.DARK, "portrait-dark.ans"),
+        ("light_mode.svg", render.LIGHT, "portrait-light.ans"),
     ):
-        (ROOT / filename).write_text(render.render(data, palette))
+        portrait = render.parse_ans(here / art)
+        (ROOT / filename).write_text(render.render(data, palette, portrait))
         print(f"wrote {filename}")
 
 

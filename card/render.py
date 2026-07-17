@@ -8,7 +8,9 @@ nothing on this card that a human types.
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass
+from pathlib import Path
 from xml.sax.saxutils import escape
 
 # Measured at 16px against the monospace fallbacks this card actually renders
@@ -82,6 +84,84 @@ ART_CHARS = max(len(line) for line in BANNER)
 
 # Blank rows kept between the left column's content and the wordmark below it.
 BANNER_GAP = 2
+
+# The portrait column on the right is rendered at half the card's text size, so
+# its 39 rows resolve into an image that sits inside the card's height instead
+# of towering over it. Halving both metrics keeps the same character aspect
+# ratio as the rest of the card, so the portrait is not stretched.
+ART_FONT = 8
+ART_CHAR_WIDTH = CHAR_WIDTH / 2
+ART_LINE_HEIGHT = LINE_HEIGHT / 2
+
+# xterm 256-colour SGR codes -> RGB. The .ans files colour every glyph with a
+# `38;5;N` foreground; background codes are ignored because the card supplies
+# its own.
+_SGR = re.compile(r"\x1b\[([0-9;]*)m")
+_FG256 = re.compile(r"38;5;(\d+)")
+
+
+def _xterm256(n: int) -> str:
+    if n < 16:
+        base = [
+            (0, 0, 0), (128, 0, 0), (0, 128, 0), (128, 128, 0), (0, 0, 128),
+            (128, 0, 128), (0, 128, 128), (192, 192, 192), (128, 128, 128),
+            (255, 0, 0), (0, 255, 0), (255, 255, 0), (0, 0, 255), (255, 0, 255),
+            (0, 255, 255), (255, 255, 255),
+        ]
+        r, g, b = base[n]
+    elif n <= 231:
+        n -= 16
+        conv = lambda c: 0 if c == 0 else 55 + 40 * c
+        r, g, b = conv(n // 36), conv((n % 36) // 6), conv(n % 6)
+    else:
+        v = 8 + (n - 232) * 10
+        r, g, b = v, v, v
+    return f"#{r:02x}{g:02x}{b:02x}"
+
+
+def parse_ans(path) -> list[list[tuple[str, str | None]]]:
+    """Parse an ANSI .ans file into rows of (text, colour) runs.
+
+    Colour is the xterm-256 foreground last set by a `38;5;N` code, or None
+    when the art never names one -- a monochrome export (foreground left at the
+    terminal default) leaves every run None, and the caller paints those in the
+    theme's text colour. ANSI state is terminal-global, so the colour persists
+    across lines and is reset by a bare `0`. Consecutive same-colour glyphs are
+    coalesced. Returns an empty list if the file is missing, so a card can still
+    render without a portrait.
+    """
+    try:
+        raw = Path(path).read_text(errors="replace")
+    except OSError:
+        return []
+
+    rows: list[list[tuple[str, str | None]]] = []
+    color: str | None = None
+    for line in raw.split("\n"):
+        runs: list[tuple[str, str | None]] = []
+        i = 0
+        for m in _SGR.finditer(line):
+            seg = line[i : m.start()]
+            if seg:
+                if runs and runs[-1][1] == color:
+                    runs[-1] = (runs[-1][0] + seg, color)
+                else:
+                    runs.append((seg, color))
+            codes = m.group(1)
+            fg = _FG256.search(codes)
+            if fg:
+                color = _xterm256(int(fg.group(1)))
+            elif codes in ("", "0"):
+                color = None
+            i = m.end()
+        seg = line[i:]
+        if seg:
+            runs.append((seg, color))
+        rows.append(runs)
+
+    while rows and not any(text.strip() for text, _ in rows[-1]):
+        rows.pop()
+    return rows
 
 
 def _text(s: str) -> str:
@@ -221,14 +301,29 @@ class Column:
         return TOP + len(self.rows) * LINE_HEIGHT
 
 
-def render(data: dict, palette: Palette) -> str:
+def render(data: dict, palette: Palette, portrait: list | None = None) -> str:
     """Build the whole SVG for one theme.
 
     Geometry is derived from the art and the column width rather than hardcoded,
-    so changing either cannot silently push text off the edge of the card.
+    so changing either cannot silently push text off the edge of the card. A
+    ``portrait`` (rows of coloured runs from parse_ans) is placed as a third
+    column on the right; passing None omits it and the card is unchanged.
     """
     right_x = LEFT_X + round(ART_CHARS * CHAR_WIDTH) + GUTTER
-    width = right_x + round(COLUMN_CHARS * CHAR_WIDTH) + LEFT_X
+    info_right = right_x + round(COLUMN_CHARS * CHAR_WIDTH)
+
+    # The portrait column sits to the right of the neofetch info, sized from the
+    # widest art row so nothing is clipped.
+    portrait = portrait or []
+    art_cols = max((sum(len(t) for t, _ in row) for row in portrait), default=0)
+    art_x = info_right + GUTTER
+    art_w = round(art_cols * ART_CHAR_WIDTH)
+    art_h = round(len(portrait) * ART_LINE_HEIGHT)
+
+    if portrait:
+        width = art_x + art_w + LEFT_X
+    else:
+        width = info_right + LEFT_X
 
     col = Column(right_x)
 
@@ -312,9 +407,10 @@ def render(data: dict, palette: Palette) -> str:
     )
 
     # Left column: the language chart and contact, with the wordmark anchored to
-    # the bottom of the card. There is no decorative art here on purpose --
-    # everything on this card is measured, and a mascot would have been the only
-    # thing on it that wasn't.
+    # the bottom of the card. Everything here is measured -- the one piece of
+    # deliberate art on the card is the portrait in the right column, and it is
+    # a self-portrait rather than a mascot: it says "this is me", not "here is a
+    # cute thing".
     left: list[str] = []
 
     def left_row(markup: str) -> None:
@@ -385,6 +481,9 @@ def render(data: dict, palette: Palette) -> str:
     banner_rows = len(BANNER)
     left_needed = len(left) + BANNER_GAP + banner_rows
     height = max(col.height(), TOP + left_needed * LINE_HEIGHT) + PAD_BOTTOM
+    # The portrait is shorter than the card today, but guard against a taller
+    # one pushing past the floor rather than clipping it silently.
+    height = max(height, art_h + 2 * PAD_BOTTOM)
 
     # Anchor the wordmark to the bottom rather than to the end of the content,
     # so it lands on the card's floor whichever column happens to be taller.
@@ -395,6 +494,25 @@ def render(data: dict, palette: Palette) -> str:
     )
 
     art = "\n".join(left)
+
+    # The portrait, centred vertically in the finished card. Each row is one
+    # <text> at the half-size font; runs within a row flow by the monospace
+    # advance, so nothing needs per-glyph positioning.
+    portrait_lines = []
+    if portrait:
+        art_top = round((height - art_h) / 2)
+        for i, row in enumerate(portrait):
+            if not any(text.strip() for text, _ in row):
+                continue
+            baseline = art_top + round(i * ART_LINE_HEIGHT) + ART_FONT
+            runs = "".join(
+                f'<tspan fill="{color or palette.text}">{_text(text)}</tspan>'
+                for text, color in row
+            )
+            portrait_lines.append(
+                f'<text x="{art_x}" y="{baseline}" font-size="{ART_FONT}px">{runs}</text>'
+            )
+    portrait_svg = "\n".join(portrait_lines)
 
     return f"""<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace" width="{width}px" height="{height}px" font-size="16px">
@@ -415,6 +533,7 @@ text, tspan {{ white-space: pre; }}
 <text x="{right_x}" y="{TOP}" fill="{palette.text}">
 {chr(10).join(col.rows)}
 </text>
+{portrait_svg}
 {chr(10).join(overlays)}
 </svg>
 """

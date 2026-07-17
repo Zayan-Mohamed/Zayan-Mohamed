@@ -4,10 +4,17 @@ The README is one `<picture>` element. Everything you see on it is generated
 here and committed back by [`card.yml`](../.github/workflows/card.yml) once a
 day.
 
-The rule this is built on: **nothing on the card is typed by hand.** Every
-number is measured by something, and if a number is wrong the bug is in the
-thing that measured it. There are no skill bars, no percentages, no rounded
-"1k+ commits" — those can't be checked, so they don't belong on a profile.
+The rule this is built on: **every number on the card is measured, not typed.**
+If a number is wrong the bug is in the thing that measured it. There are no
+skill bars, no percentages, no rounded "1k+ commits" — those can't be checked,
+so they don't belong on a profile.
+
+The one deliberate exception is the portrait in the right column: a
+self-portrait rendered as ANSI art, one file per theme
+([`portrait-dark.ans`](portrait-dark.ans) on the dark card,
+[`portrait-light.ans`](portrait-light.ans) on the light one). It is the only
+thing on the card that is drawn rather than counted — and it says "this is me",
+which is a claim only a face can make.
 
 | | |
 |---|---|
