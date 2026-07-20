@@ -42,7 +42,7 @@ text, tspan { white-space: pre; }
 <text x="456" y="30" fill="#c9d1d9">
 <tspan x="456" y="30"><tspan class="hd">zayan-mohamed@colombo</tspan><tspan class="cc"> -———————————————————————————————————————-—-</tspan></tspan>
 <tspan x="456" y="50" class="cc">. </tspan><tspan class="key">OS</tspan><tspan class="cc">:</tspan><tspan class="cc"> .................................................... </tspan><tspan class="value">Linux</tspan>
-<tspan x="456" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan><tspan class="cc">:</tspan><tspan class="cc" id="uptime_dots"> ............................ </tspan><tspan class="value" id="uptime">1 year, 8 months, 16 days</tspan>
+<tspan x="456" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan><tspan class="cc">:</tspan><tspan class="cc" id="uptime_dots"> ............................ </tspan><tspan class="value" id="uptime">1 year, 8 months, 17 days</tspan>
 <tspan x="456" y="90" class="cc">. </tspan><tspan class="key">Host</tspan><tspan class="cc">:</tspan><tspan class="cc"> .................... </tspan><tspan class="value">SLIIT — BSc (Hons) IT, Data Science</tspan>
 <tspan x="456" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan><tspan class="cc">:</tspan><tspan class="cc"> ............. </tspan><tspan class="value">Software Engineer · DevOps · Open Source</tspan>
 <tspan x="456" y="130" class="cc">. </tspan><tspan class="key">Editor</tspan><tspan class="cc">:</tspan><tspan class="cc"> ...................................... </tspan><tspan class="value">Neovim, VS Code</tspan>
@@ -57,10 +57,10 @@ text, tspan { white-space: pre; }
 <tspan x="456" y="310" class="hd">- secscan v2.2.4, run against my own code, daily </tspan><tspan class="cc">-——————————————-—-</tspan>
 <tspan x="456" y="330" class="cc">. </tspan><tspan class="key">Repos scanned</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_repos_dots"> ............................................ </tspan><tspan class="value" id="scan_repos">37</tspan>
 <tspan x="456" y="350" class="cc">. </tspan><tspan class="key">Files</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_files_dots"> ................................................. </tspan><tspan class="value" id="scan_files">1,881</tspan>
-<tspan x="456" y="370" class="cc">. </tspan><tspan class="key">Git history</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_commits_dots"> ................................... </tspan><tspan class="value" id="scan_commits">1,383 commits</tspan>
-<tspan x="456" y="390" class="cc">. </tspan><tspan class="key">Scan time</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_time_dots"> ............................................. </tspan><tspan class="value" id="scan_time">26.2s</tspan>
+<tspan x="456" y="370" class="cc">. </tspan><tspan class="key">Git history</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_commits_dots"> ................................... </tspan><tspan class="value" id="scan_commits">1,385 commits</tspan>
+<tspan x="456" y="390" class="cc">. </tspan><tspan class="key">Scan time</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_time_dots"> ............................................. </tspan><tspan class="value" id="scan_time">26.4s</tspan>
 <tspan x="456" y="410" class="cc">. </tspan><tspan class="key">Findings</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_findings_dots"> ......................... </tspan><tspan class="value" id="scan_findings">20 (2 at &gt;=0.9 confidence)</tspan>
-<tspan x="456" y="430" class="cc">. </tspan><tspan class="key">Last run</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_at_dots"> ............................... </tspan><tspan class="value" id="scan_at">2026-07-19 06:38 UTC</tspan>
+<tspan x="456" y="430" class="cc">. </tspan><tspan class="key">Last run</tspan><tspan class="cc">:</tspan><tspan class="cc" id="scan_at_dots"> ............................... </tspan><tspan class="value" id="scan_at">2026-07-20 06:55 UTC</tspan>
 <tspan x="456" y="450" class="cc">. </tspan>
 <tspan x="456" y="470" class="hd">- GitHub </tspan><tspan class="cc">-——————————————————————————————————————————————————————-—-</tspan>
 <tspan x="456" y="490" class="cc">. </tspan><tspan class="key">Repos</tspan><tspan class="cc">:</tspan><tspan class="cc" id="gh_repos_dots"> ...................................... </tspan><tspan class="value" id="gh_repos">37  |  Stars: 27</tspan>
